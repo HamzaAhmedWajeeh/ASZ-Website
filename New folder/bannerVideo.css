@@ -1,0 +1,103 @@
+.video-slide{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+    width: 100%;
+    position: relative;
+    z-index: 1 !important;
+    margin-top: 0 !important;
+}
+.video-layer{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+    background: rgba(0,0,0,0.25);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+}
+.player-size{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+    width: 100%;
+    border: 1px solid #0a1754;
+    overflow: hidden;
+}
+.cropping-div{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+}
+.div-to-crop{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+    overflow: hidden;
+    margin-top: -52%;
+    margin-bottom: -21%;
+}
+.player-wrapper{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+    position: relative;
+    overflow: hidden;
+    padding-top: 128.25%;
+}
+.player {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 124%;
+}
+iframe {
+    border: 0;
+}
+.first_section_heading_section {
+    position: absolute;
+    top: 30%;
+    z-index: 7;
+    padding: 0 20px;
+    backdrop-filter: blur(5);
+    margin-left: 50px;
+    margin-right: 50px;
+}
